@@ -164,7 +164,7 @@ ul.menu a:hover{
     /*display: block;*/
     background-color: rgb(91, 14, 28);
     border-right: 15px solid rgb(34, 31, 62);
-    
+    width:10%;
 }
 
 .aside-text{
@@ -175,8 +175,9 @@ ul.menu a:hover{
     
     overflow: hidden;
     line-height: 30px;
-    min-width: 100px;
-    max-width: 350px;
+    /* min-width: 100px;
+    max-width: 350px; */
+    
 }
 
 
@@ -192,12 +193,12 @@ ul.menu a:hover{
 .content-3{
     display: block;
     background-color: rgba(236, 171, 18, 0.968);
-    min-width: 600px;
+    /* min-width: 600px; */
     /* min-width: max-content; */
 }
 .td-3{
     background-color: rgba(236, 171, 18, 0.968);
-    
+    width:70%;
 }
 
 
@@ -227,13 +228,13 @@ ul.menu a:hover{
     
     background-color: rgba(56, 54, 77, 0.908);
     width: 350px;
-   
+    width:20%;
     color:red;
     
 }
 
 .content-5{
-    
+    width:20%;
     
     
     background-color: rgba(43, 42, 56, 0.916);
@@ -245,8 +246,8 @@ ul.menu a:hover{
 }
 
 .ol-songs li{
-    
-    margin-left: 32px;
+    list-style-position: inside;
+    /* margin-left: 32px; */
     line-height: 20px;
 }
 

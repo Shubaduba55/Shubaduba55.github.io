@@ -241,8 +241,8 @@ ul.menu a:hover{
 }
 
 .ol-songs li{
-    
-    margin-left: 32px;
+    list-style-position: inside;
+    /* margin-left: 32px; */
     line-height: 20px;
 }
 
